@@ -1,0 +1,22 @@
+<package>
+  <description brief="reemc_gazebo">
+
+     reemc_gazebo
+
+  </description>
+  <author>Luca Marchionni, Adolfo Rodriguez Tsouroukdissian</author>
+  <license>Modified BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/reemc_gazebo</url>
+  <depend package="robot_state_publisher"/>
+  <depend package="joint_state_publisher"/>
+  <depend package="xacro"/>
+  <depend package="pal_gazebo_plugins"/>
+  <depend package="reemc_controller_configuration_gazebo"/>
+  <depend package="reemc_description"/>
+  <depend package="reemc_hardware_gazebo"/>
+  <depend package="atlas_msgs"/>
+
+</package>
+
+

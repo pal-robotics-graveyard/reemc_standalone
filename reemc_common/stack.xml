@@ -1,0 +1,10 @@
+<stack>
+  <description brief="REEM-C robot description">
+    URDF description of the robot kinematics and dynamics, 3D models of robot components and machine specifications.
+  </description>
+  <author>Maintained by Luca Marchionni</author>
+  <license>Modified BSD, Creative Commons BY-NC-ND 3.0</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/reem_common</url>
+  <depend stack="ros" />
+</stack>

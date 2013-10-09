@@ -1,0 +1,23 @@
+<package>
+  <description brief="reemc_arm_navigation">
+  The contents of this package are based on the original pr2_arm_navigation stack, and has been following its evolution since the Boxturtle release, hence credit for its contents goes mainly to the authors of the original stack.
+    The authors listed in this stack's packages have mostly adapting the original work to the REEM-C robot.
+
+    The contents of this stack are based on the original pr2_arm_navigation, and has been following its evolution since the Boxturtle release, hence credit for its contents goes mainly to the authors of the original stack.
+    The authors listed in this stack's packages have mostly adapting the original work to the REEM-C robot.
+  </description>
+  <author>Bence Magyar</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/reemc_arm_navigation</url>
+  <depend package="planning_environment"/>
+  <depend package="kinematics_base"/>
+  <depend package="arm_kinematics_constraint_aware"/>
+  <depend package="ompl_ros_interface"/>
+  <depend package="trajectory_filter_server"/>
+  <depend package="constraint_aware_spline_smoother"/>
+  <depend package="move_arm"/>
+
+</package>
+
+

@@ -1,0 +1,4 @@
+<launch>
+    <param name="robot_description" textfile="$(find reemc_gazebo)/models/reemc_description/reemc.urdf" />
+    <rosparam command="load" ns="robot_description_planning" file="$(find reemc_arm_navigation)/config/reemc_planning_description.yaml" />
+</launch>
