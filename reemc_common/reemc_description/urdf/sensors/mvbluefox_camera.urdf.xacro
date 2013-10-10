@@ -38,9 +38,6 @@
         </geometry>
         <material name="Blue" />
       </visual>
-      <material name="Red">
-        <color rgba="0.72941 0.35686 0.023529 1" />
-      </material>
     </link>
 
   </xacro:macro>
