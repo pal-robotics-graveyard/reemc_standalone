@@ -22,10 +22,7 @@
           Rotate origin in mesh, to match the orientation of the base link and bypass the bug.
 
 -->
-<robot xmlns:sensor="http://playerstage.sourceforge.net/gazebo/xmlschema/#sensor"
-       xmlns:controller="http://playerstage.sourceforge.net/gazebo/xmlschema/#controller"
-       xmlns:interface="http://playerstage.sourceforge.net/gazebo/xmlschema/#interface"
-       xmlns:xacro="http://ros.org/wiki/xacro">
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
 
   <include filename="$(find reemc)/urdf/sensors/calibration.xacro" />
   <include filename="$(find reemc)/urdf/sensors/openni.gazebo.xacro" />

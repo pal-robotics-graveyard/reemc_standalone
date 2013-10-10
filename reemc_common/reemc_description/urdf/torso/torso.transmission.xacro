@@ -8,11 +8,7 @@
   To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/3.0/ or send a letter to
   Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
 -->
-<robot xmlns:sensor="http://playerstage.sourceforge.net/gazebo/xmlschema/#sensor"
-      xmlns:controller="http://playerstage.sourceforge.net/gazebo/xmlschema/#controller"
-      xmlns:interface="http://playerstage.sourceforge.net/gazebo/xmlschema/#interface"
-      xmlns:xacro="http://ros.org/wiki/xacro">
-
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
 
   <xacro:macro name="reemc_torso_differential_transmission"
                params="name number1 number2 act_reduction1 act_reduction2 jnt_reduction1 jnt_reduction2" >
