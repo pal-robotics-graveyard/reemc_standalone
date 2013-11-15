@@ -34,7 +34,7 @@
        <plugin name="monocular_camera_controller" filename="libgazebo_ros_camera.so">
          <alwaysOn>true</alwaysOn>
          <updateRate>15.0</updateRate>
-         <cameraName>/reemc/${name}</cameraName>
+         <cameraName>${name}</cameraName>
          <imageTopicName>image</imageTopicName>
          <cameraInfoTopicName>camera_info</cameraInfoTopicName>
          <frameName>${frame_id}</frameName>

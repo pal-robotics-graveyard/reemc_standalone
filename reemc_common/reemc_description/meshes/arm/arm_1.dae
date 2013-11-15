@@ -167,6 +167,7 @@
   <library_visual_scenes>
     <visual_scene id="MaxScene">
       <node id="node-arm_1" name="arm_1">
+        <translate>0 0 0.02101 </translate>
         <rotate>1 0 0 -90</rotate>
         <instance_geometry url="#geom-arm_1">
           <bind_material>

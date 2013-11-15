@@ -42,7 +42,7 @@
     <joint name="${name}_1_joint" type="revolute">
       <parent link="${parent}"/>
       <child link="${name}_1_link"/>
-      <origin xyz="0 0 0.139" rpy="0 0 0" />
+      <origin xyz="0 0 0.14353" rpy="0 0 0" />
       <axis xyz="0 0 1" />
       <limit lower="${-75.0 * deg_to_rad}" upper="${75.0 * deg_to_rad}" effort="${torso_max_effort}" velocity="${torso_max_vel}" />
       <dynamics damping="1.0" friction="1.0"/>
@@ -67,7 +67,7 @@
       <visual>
         <origin rpy="0 0 0" xyz="0 0 0"/>
         <geometry>
-          <mesh filename="package://reemc_description/meshes/torso/torso_2.stl" />
+          <mesh filename="package://reemc_description/meshes/torso/torso_2.dae" />
         </geometry>
         <material name="LightGrey" />
       </visual>
